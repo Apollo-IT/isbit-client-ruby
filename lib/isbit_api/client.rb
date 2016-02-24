@@ -10,7 +10,7 @@ module IsbitAPI
     def initialize(options={})
       options = options.symbolize_keys
       setup_auth_keys options
-      @endpoint = options[:endpoint] || 'https://www.is-pos.com:3443'
+      @endpoint = options[:endpoint] || 'https://isbit.co'
       @timeout  = options[:timeout]  || 60
     end
 

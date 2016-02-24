@@ -8,7 +8,7 @@ module IsbitAPI
 
     def initialize(options={})
       super
-      @endpoint = options[:endpoint] || 'wss://www.is-pos.com:3000'
+      @endpoint = options[:endpoint] || 'wss://isbit.co:8080'
       @logger   = options[:logger] || Logger.new(STDOUT)
     end
 

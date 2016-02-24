@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.name        = "isbit_client"
   s.version     = IsbitAPI::Client::VERSION
   s.authors     = ["INTELHIT INTELSELLER SA DE CV"]
-  s.email       = ["soporte@isbit.com.mx"]
-  s.homepage    = "https://github.com/isbitcommx/isbit-client-ruby"
-  s.summary     = "A ruby client to access Peatio's API."
+  s.email       = ["soporte@isbit.co"]
+  s.homepage    = "https://github.com/isbitexchange/isbit-client-ruby"
+  s.summary     = "A ruby client to access https://isbit.co  API."
   s.description = "A ruby client which can access all ISBIT's API."
   s.license     = 'MIT'
 
